@@ -1,0 +1,15 @@
+{// ! important ! => every change made here might be nedded in the tsconfig.spec.json as well
+    "compilerOptions": {
+      "rootDir": "src",
+      "target": "es5",
+      "module": "commonjs",
+      "outDir": "out",
+      "sourceMap": true
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "src/**/*.spec.ts"
+    ]
+}

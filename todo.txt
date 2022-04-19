@@ -1,0 +1,32 @@
+export as a npm private repo
+
+* think what part of the compilation shuld avoid the test files 
+** what part are there?
+
+*** for debug compilations
+**** i think that while debugging tsc work regullarly just create files that lets the compiller do the maching between ts code and build code
+**** shuld not avoid test while debugging
+
+
+*** for nodemon localy compilation to memory
+**** it compile all files that are imported in the root file and run the root file as script -
+**** so there is two option 
+1: import all script to an 'index' file and have two 'lunch' configurations for the debuggers
+**** maybe it isn't common to debug tests?
+**** nodemon shuld probably run seperatly for fanctionality run and for test run
+
+*** for build in order to run in production
+
+*** for test runs
+
+* how can i get smarter now?
+** meditate
+** drink water
+** do straches
+** eat some carbs - like a cookie or crasunt
+
+
+nodemon index.ts   = build to memory and run
+tsc  = build 
+VScode debugg lunch bottum   = build to memory with mapping and run + run the vscode dubbeger interface
+jest   = build all .test.ts and imported files to memory + and run jest binaries on them?
