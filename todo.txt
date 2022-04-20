@@ -30,3 +30,4 @@ nodemon index.ts   = build to memory and run
 tsc  = build 
 VScode debugg lunch bottum   = build to memory with mapping and run + run the vscode dubbeger interface
 jest   = build all .test.ts and imported files to memory + and run jest binaries on them?
+c
